@@ -1,0 +1,12 @@
+
+type Query {
+    tracks: [Track!]!
+    track(id: ID!): Track
+}
+
+type Track @key(fields: "id"){
+    id: ID!
+    name: String!
+    cover: String!
+    duration: String!
+}

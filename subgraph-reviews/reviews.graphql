@@ -1,0 +1,33 @@
+type Query {
+  latestReviews: [Review!]!
+}
+
+type Mutation {
+  submitReview(review: ReviewInput): SubmitReviewResponse
+}
+
+type Review {
+  id: ID!
+  comment: String
+  rating: Int
+  track: Track
+}
+
+input ReviewInput {
+  comment: String!
+  rating: Int!
+  trackId: String!
+}
+
+type SubmitReviewResponse {
+  code: Int!
+  success: Boolean!
+  message: String!
+  review: Review
+}
+
+extend type Track @key(fields: "id") {
+  id: ID! @external
+  overallRating: Float
+  reviews: [Review]!
+}

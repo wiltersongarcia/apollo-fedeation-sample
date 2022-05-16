@@ -1,0 +1,64 @@
+{
+    "reviews": [
+        {
+            "id": "rev-1",
+            "trackId": "track-1",
+            "rating": 5,
+            "comment": "Incrível"
+        },
+        {
+            "id": "rev-2",
+            "trackId": "track-1",
+            "rating": 5,
+            "comment": "Muito Bom"
+        },
+        {
+            "id": "rev-3",
+            "trackId": "track-1",
+            "rating": 2,
+            "comment": "Fraca"
+        },
+        {
+            "id": "rev-4",
+            "trackId": "track-1",
+            "rating": 4,
+            "comment": "OMG!! o/"
+        },
+        {
+            "id": "rev-5",
+            "trackId": "track-2",
+            "rating": 4,
+            "comment": "Pretty Good"
+        },
+        {
+            "id": "rev-6",
+            "trackId": "track-2",
+            "rating": 5,
+            "comment": "You Rock"
+        },
+        {
+            "id": "rev-7",
+            "trackId": "track-2",
+            "rating": 4,
+            "comment": "Demais!!!!"
+        },
+        {
+            "id": "rev-8",
+            "trackId": "track-2",
+            "rating": 5,
+            "comment": "Que incrível"
+        },
+        {
+            "id": "rev-9",
+            "trackId": "track-3",
+            "rating": 1,
+            "comment": "Muito Ruim, não gostei não"
+        },
+        {
+            "id": "rev-10",
+            "trackId": "track-4",
+            "rating": 1,
+            "comment": "Horrível"
+        }
+    ]
+}
